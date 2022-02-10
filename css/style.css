@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+main {
+  padding: 2vmin;
+}
+section {
+  margin-bottom: 2vmin;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+ul#listToDos {
+  max-width: 100vmin;
+}
+ul#listToDos li {
+  display: flex;
+  align-items: center;
+  gap: 2vmin;
+  margin-bottom: 2vmin;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1vmin;
+}
+
+header {
+  background-color: #ccc;
+  padding: 2vmin 1vmin 2vmin 1vmin;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-outer {
+  padding: 3vmin;
+  background-color: bisque;
+  border-radius: 2vmin;
+  width: 90vmin;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+#sectionAddToDo {
+  display: flex;
+}
+
+input[type="checkbox"]:checked + label {
+  _color: red;
+  text-decoration: line-through;
+}
+
+ul#listToDos li span {
+  margin-left: 1vmin;
+}
